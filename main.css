@@ -13,6 +13,12 @@
 @media (min-width: 992px) {
     .clip {
         clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+        transition: clip-path 0.5s ease-in-out;
     }
+
+    .clip:hover {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
 
 }
